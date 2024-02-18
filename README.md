@@ -108,6 +108,34 @@ comm: input is not in sorted order
 diff file1 file2
 ## OUTPUT
 
+1c1,2
+
+< chanchal singhvi
+
+---
+
+> anil aggarwal
+ 
+> barun sengupta
+
+2a4
+
+> lalit chowdury
+
+4,6c6
+
+< sumit chakrobarty
+
+< ^d
+
+< 
+
+---
+
+> ^d
+
+\ No newline at end of file
+
 
 #Filters
 

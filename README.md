@@ -44,9 +44,13 @@ cat < file1
 ## OUTPUT
 
 chanchal singhvi
+
 c.k. shukla
+
 s.n. dasgupta
+
 sumit chakrobarty
+
 ^d
 
 
@@ -54,10 +58,15 @@ cat < file2
 ## OUTPUT
 
 anil aggarwal
+
 barun sengupta
+
 c.k. shukla
+
 lalit chowdury
+
 s.n. dasgupta
+
 ^d
 
 # Comparing Files
@@ -70,18 +79,30 @@ comm file1 file2
  ## OUTPUT
 
 	anil aggarwal
+ 
 	barun sengupta
+ 
 chanchal singhvi
+
 		c.k. shukla
+  
 	lalit chowdury
+ 
 		s.n. dasgupta
+  
 comm: file 2 is not in sorted order
+
 	^d
+ 
 sumit chakrobarty
+
 comm: file 1 is not in sorted order
+
 ^d
 
+
 comm: input is not in sorted order
+
 
  
 diff file1 file2

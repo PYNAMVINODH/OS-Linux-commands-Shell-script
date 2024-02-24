@@ -51,7 +51,7 @@ s.n. dasgupta
 
 sumit chakrobarty
 
-^d
+ 
 
 
 cat < file2
@@ -66,8 +66,7 @@ c.k. shukla
 lalit chowdury
 
 s.n. dasgupta
-
-^d
+ 
 
 # Comparing Files
 cmp file1 file2
@@ -92,13 +91,13 @@ chanchal singhvi
   
 comm: file 2 is not in sorted order
 
-	^d
+	 
  
 sumit chakrobarty
 
 comm: file 1 is not in sorted order
 
-^d
+ 
 
 
 comm: input is not in sorted order
@@ -126,13 +125,12 @@ diff file1 file2
 
 < sumit chakrobarty
 
-< ^d
+ 
 
 < 
 
 ---
-
-> ^d
+ 
 
 \ No newline at end of file
 
